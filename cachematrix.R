@@ -1,4 +1,4 @@
-## This creates and stores an inverse matrix.
+## This series of functions creates and stores an inverse matrix.
 
 ## This function returns a list with 4 components.
 makecacheMatrix <- function(x = matrix()) {
@@ -17,7 +17,7 @@ makecacheMatrix <- function(x = matrix()) {
 
 
 
-## This function creates and stores the inverse matrix.
+## This function stores the inverse matrix for later recall.
 cacheSolve <- function(x, ...) {
         inversematrix <- x$getinv_matrix()
         if(!is.null(inversematrix)) {
